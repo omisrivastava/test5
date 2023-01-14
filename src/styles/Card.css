@@ -1,0 +1,40 @@
+.container {
+    background-color: black;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 16rem;
+}
+
+.imgContainer{
+    height: 15rem;
+    width: 16rem;
+}
+
+.profileimg {
+    height: 15rem;
+    overflow: hidden;
+    width: 16rem;
+}
+
+.cardBody{
+    color:white;
+    text-align: center;
+    margin: 0.9rem auto;;
+}
+
+.cardBody h5{
+    color:yellow;
+}
+
+.profileimg:hover{
+    transform: scale(1.01);
+}
+
+
+.socialIcons{
+    color:white;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 0.7rem;
+    gap:1rem;
+}
